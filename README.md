@@ -1,24 +1,33 @@
-# Lista de Exercícios
-<img src="assets/images/Unicap_Icam_Tech-01.png" alt="drawing" width="200"/>
+# War Game
 
-## Identificação
-**Professor**: Nome do Professor
+## Descrição do Projeto
 
-**Disciplina**: Nome da Disciplina
+Este projeto é uma implementação do clássico jogo de tabuleiro War, desenvolvida em Java como parte da disciplina de Engenharia de Software 2. O foco principal foi aplicar a metodologia de Desenvolvimento Orientado a Testes (TDD) para garantir a qualidade e a robustez do código.
 
-**Atividade**: Lista XX - Nome da Lista
+## Funcionalidades
 
-## Instruções 
-> 1. Sua implementação deve estar dentro da pasta src/**main**/java 
-> 2. Não modifique nenhum código dentro da pasta src/**test**/java).
-> 3. A submissão **não deve ser feita após o prazo** (nem 1 minuto a mais)
+- Suporte para 2 a 6 jogadores.
+- Distribuição aleatória de territórios no início do jogo.
+- Movimentação de tropas entre territórios adjacentes.
+- Sistema de combate baseado em dados.
+- Objetivos secretos para cada jogador.
+- Verificação de condições de vitória.
 
-## Descrição da Atividade
-### Questão 01
-Altere o método `messageNotImplemented` na classe `Hello` para, em vez de lançar uma exceção, retornar a menssagem `Hello World`. 
+## Tecnologias Utilizadas
 
-A classe `Hello` possui os dois métodos a seguir: 
-1. Método `messageImplemented` que está corretamente implementado e retorna a mensagem `Hello World`.     
+- **Linguagem:** Java
+- **Metodologia:** Test-Driven Development (TDD)
+- **Framework de Testes:** JUnit
+- **Biblioteca de Mocking:** Mockito
+- **Controle de Versão:** Git
 
-2. Método `messageNotImplemented` que não está corretamente implementado e lança uma exceção `UnsupportedOperationException`. 
+## Como Executar o Projeto
 
+1. **Pré-requisitos:**
+   - Java Development Kit (JDK) 11 ou superior instalado.
+   - Git instalado para clonar o repositório.
+
+2. **Clonar o Repositório:**
+   ```bash
+   git clone https://github.com/rooseveltjnr/war-game-java.git
+   cd war-game-java
